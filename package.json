@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Zakir0000/layout-designer-project-58/issues"
   },
-  "homepage": "https://github.com/Zakir0000/layout-designer-project-58#readme"
+  "homepage": "https://github.com/Zakir0000/layout-designer-project-58#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
