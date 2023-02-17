@@ -1,0 +1,64 @@
+/** Colors **/
+:root {
+  --white:#fff;
+  --translucent-white:#d7ccc0;
+  --light:#f5f4f0;
+  --basic: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark:#908d8b;
+  --broun:#b09a81;
+  --blue:#1085c5;
+
+
+}
+
+/** FONTS **/
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Neucha';
+  src: url(/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/Neucha-Regular.ttf);
+}
+
+
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+  width: 1440px;
+}
+
+
+/**  HEADLINES **/
+
+h1, h2, h3 {
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 34px;
+}
+
+/**  SECTION  **/
+section {
+  max-width: 1110px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px;
+}
+
+
+
+
+
+
