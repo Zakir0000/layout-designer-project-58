@@ -1,0 +1,3 @@
+[submodule "html-boilerplate"]
+	path = html-boilerplate
+	url = git@github.com:hexlet-boilerplates/html-boilerplate.git
