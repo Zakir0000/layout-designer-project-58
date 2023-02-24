@@ -1,0 +1,116 @@
+/** Colors **/
+:root {
+  --white:#fff;
+  --translucent-white:#d7ccc0;
+  --light:#f5f4f0;
+  --basic: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark:#908d8b;
+  --broun:#b09a81;
+  --blue:#1085c5;
+}
+
+/** FONTS **/
+
+@font-face {
+  font-weight: 400;
+  font-family: 'OpenSans-Regular';
+  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/OpenSans-Regular.woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-family: 'OpenSans-Bold';
+  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/OpenSans-Bold.woff2');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Neucha';
+  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/Neucha.woff2');
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+  font-family: 'OpenSans-Regular';
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Neucha';
+  line-height: 1.2em;
+}
+h1 { font-size: 72px; }
+h2 { font-size: 60px; }
+h3 { font-size: 34px; }
+
+.background-light {
+  background-color: var(--light);
+}
+section {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+}
+
+.page-header {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+header {
+  display: block;
+}
+
+.page-header::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -20;
+  width: 100%;
+  height: 100%;
+  background: url('../../images/background.png');
+  display: block;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+}
+.container {
+  position:relative;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0 100px 0; 
+}
+.img-main {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  height: 525px;
+}
+
+.column-2 {
+  column-count: 2;
+  column-gap: 30px;
+  break-inside: auto;
+}
+.column-2 p {
+  margin-top: 0;
+}
+.margin-bottom-185 {
+  margin-bottom: 185px;
+}
+.button-detailed {
+  padding: 12px 24px 12px 24px;
+  font-weight: 700;
+  background-color: var(--basic);
+  list-style-type: none;
+  color: var(--white);
+  text-decoration-line: none;
+}
+
+.margin-bottom-40  {
+  margin-top: 40px;
+}
