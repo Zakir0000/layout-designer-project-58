@@ -61,6 +61,8 @@ img {
   vertical-align: middle;
 }
 
+/*DESIGN STYLES*/
+
 .background-light {
   background-color: var(--light);
 }
@@ -70,9 +72,164 @@ img {
 .bg-basic-dark {
   background-color: var(--basic-dark);
 }
+div.container.margin-top-100.bg-basic-dark {
+  padding-bottom: 0px;
+  padding-top: 55px;
+}
 .bg-brown {
   background-color: var(--brown);
 }
+.margin-bottom-185 {
+  margin-bottom: 145px;
+}
+.card h3 {
+  color:var(--basic);
+}
+.column-2 p {
+  margin-top: 0;
+}
+.num-style {
+  padding-bottom: 40px;
+  font-size: 64px;
+  font-family: 'Neucha';
+  line-height: 1;
+  color: var(--basic-dark);
+  text-decoration: none;
+}
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+.padding-55 {
+  padding:55px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+.margin-footer {
+  margin-top: 76px;
+  margin-bottom: 111px;
+}
+.margin-bottom-40  {
+  margin-bottom: 40px;
+}
+.center {
+  text-align: center;
+}
+.decor-1 {
+  font-family:'Neucha';
+  font-size: 52px;
+  color: var(--white);
+  text-decoration: none;
+  color:var(--basic)
+}
+
+.decor-2 {
+  font-family:'Neucha';
+  font-size: 50px;
+  color: var(--white);
+}
+.decor-3 {
+  vertical-align: middle;
+}
+.decor-4 {
+  font-family: 'Neucha';
+  font-size: 24px;
+  line-height: 29px;
+  color: #908d8d;
+  margin-top: 0px;
+}
+.decor-5 {
+  color:var(--dark);
+  line-height: 72px; 
+  margin-top: 0px
+}
+.decor-6 {
+  color:var(--dark);
+  font-style: normal;
+  font-weight: 400;
+}
+.decor-7 {
+  font-family: 'OpenSans-Regular';
+  color: var(--white); 
+  background: #B09A81; 
+  margin-top: 100px; 
+  margin-bottom: 20px;
+}
+.decor-8 {
+  font-family:'Neucha';
+  font-size: 24px;
+  line-height: 29px;
+  color:#D7CCC0; 
+  margin: 0px
+}
+.decor-9 {
+  color:#ffffff;
+  margin-bottom: 30px; 
+  margin-top:0px;
+}
+.decor-10 {
+  font-family: 'Neucha';
+  font-size: 34px; 
+  color: #ffffff; 
+  line-height: 120%;
+}
+.decor-11 {
+  font-family: 'OpenSans-Regular';
+  color: var(--brown); 
+  background: var(--white); 
+  margin-top: 100px; 
+  margin-bottom: 20px
+}
+.decor-12 {
+  color:var(--white);
+}
+.decor-13 {
+  font-family:'Neucha';
+  font-size: 24px; 
+  line-height: 29px;
+  color:#D7CCC0; 
+  margin: 0px;
+}
+.decor-14 {
+  font-family: 'Neucha';
+  font-size: 24px; 
+  line-height: 29px;
+  color: #908d8d; 
+  margin-top: 0px;
+}
+.decor-15 {
+  padding: 5px;
+}
+.decor-16 {
+  display: flex;
+}
+
+.decor-17 {
+  font-size: 12px;
+  color:#ffffff;
+  line-height: 1.6;
+  align-items: center;
+}
+.decor-18 {
+  color: #000000; 
+  text-align: center; 
+  font-size: 14px;
+}
+.decor-19 {
+  color: #007DC1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .page-header {
@@ -125,9 +282,7 @@ img {
   /*margin: 15px;*/
   color:var(--basic-dark)
 }
-.card h3 {
-  color:var(--basic);
-}
+
 
 .card-1 {
   
@@ -142,16 +297,9 @@ height: 323px;
   color:var(--white);
 }
 
-.num-style {
-  padding-bottom: 40px;
-  font-size: 64px;
-  font-family: 'Neucha';
-  line-height: 1;
-  color: var(--basic-dark);
-  text-decoration: none;
-  
 
-}
+
+
 .img-main {
   position: absolute;
   top: 55px;
@@ -164,12 +312,7 @@ height: 323px;
   column-gap: 30px;
   break-inside: auto;
 }
-.column-2 p {
-  margin-top: 0;
-}
-.margin-bottom-185 {
-  margin-bottom: 145px;
-}
+
 .button-detailed {
   padding: 12px 24px 12px 24px;
   font-weight: 700;
@@ -179,23 +322,7 @@ height: 323px;
   text-decoration-line: none;
 }
 
-.padding-bottom-30 {
-  padding-bottom: 30px;
-}
-.padding-55 {
-  padding:55px;
-  
-}
-.margin-top-100 {
-  margin-top: 100px;
-}
-.margin-footer {
-  margin-top: 76px;
-  margin-bottom: 111px;
-}
-.margin-bottom-40  {
-  margin-bottom: 40px;
-}
+
 .flex {
   display: flex;
  flex-direction: column;
@@ -203,9 +330,6 @@ height: 323px;
   align-items: center;
 }
 
-.center {
-  text-align: center;
-}
 
 .video {
   position: relative;
@@ -219,6 +343,7 @@ height: 323px;
 .flex-row-footer {
   display: flex;
   gap: 122px;
+  justify-content: center;
 }
 .col-2 {
   display: flex;
@@ -270,13 +395,21 @@ button::before {
 .hover:hover {
   color: #FFFFFF;
   background: #EA7600;
+  
+  
 }
 
 .hover:hover h3{
   color: #FFFFFF;
   background: #EA7600;
+ 
+  
+ 
 }
 .hover:hover .num-style{
   color: #FFFFFF;
   background: #EA7600;
+  
+  
+  
 }
