@@ -7,7 +7,7 @@
   --basic-dark: #42413c;
   --dark: #2a2626;
   --translucent-dark:#908d8b;
-  --broun:#b09a81;
+  --brown:#B09A81;
   --blue:#1085c5;
 }
 
@@ -34,7 +34,7 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
-  font-family: 'OpenSans-Regular';
+  font-family: 'OpenSans-Regular', sans-serif;
   margin: 0;
 }
 *, *:before,
@@ -50,14 +50,16 @@ header {
 }
 
 
-h1, h2, h3 {
-  font-family: 'Neucha';
-  line-height: 1.2em;
-}
+h1, h2, h3 { font-family: 'Neucha';  line-height: 1.2em; }
 h1 { font-size: 72px; }
 h2 { font-size: 60px; }
 h3 { font-size: 34px;margin: 0px;}
 
+img {
+
+  height: auto;
+  vertical-align: middle;
+}
 
 .background-light {
   background-color: var(--light);
@@ -68,6 +70,10 @@ h3 { font-size: 34px;margin: 0px;}
 .bg-basic-dark {
   background-color: var(--basic-dark);
 }
+.bg-brown {
+  background-color: var(--brown);
+}
+
 
 .page-header {
   position: relative;
