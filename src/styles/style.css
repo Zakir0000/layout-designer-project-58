@@ -16,18 +16,18 @@
 @font-face {
   font-weight: 400;
   font-family: 'OpenSans-Regular';
-  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/OpenSans-Regular.woff2');
+  src: url('./assets/fonts/OpenSans-Regular.woff2');
 }
 @font-face {
   font-weight: 700;
   font-family: 'OpenSans-Bold';
-  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/OpenSans-Bold.woff2');
+  src: url('./assets/fonts/OpenSans-Bold.woff2');
 }
 
 @font-face {
   font-weight: 400;
   font-family: 'Neucha';
-  src: url('/home/zakirkhunkaev/Desktop/layout-designer-project-58/assets/fonts/Neucha.woff2');
+  src: url('./assets/fonts/Neucha.woff2');
 }
 
 body {
