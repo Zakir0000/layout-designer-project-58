@@ -182,7 +182,17 @@ height: 323px;
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
-
+.padding-55 {
+  padding:55px;
+  
+}
+.margin-top-100 {
+  margin-top: 100px;
+}
+.margin-footer {
+  margin-top: 76px;
+  margin-bottom: 111px;
+}
 .margin-bottom-40  {
   margin-bottom: 40px;
 }
@@ -206,6 +216,10 @@ height: 323px;
   display: flex;
   gap: 30px;
 }
+.flex-row-footer {
+  display: flex;
+  gap: 122px;
+}
 .col-2 {
   display: flex;
   flex-direction: column;
@@ -221,4 +235,48 @@ height: 323px;
 #ikea-effect {
   padding: 100px 0px 100px 0px;
 
+}
+input{
+  display: block;
+  width: 423px;
+  height: 50px;
+  padding: 15px
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  height: 50px;
+  width: 70px;
+  background-color: #fe8a02;
+  border: none;
+}
+
+button::before {
+  position: absolute;
+  
+  background-image: url('../../images/send.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  content:'';
+}
+
+
+.hover:hover {
+  color: #FFFFFF;
+  background: #EA7600;
+}
+
+.hover:hover h3{
+  color: #FFFFFF;
+  background: #EA7600;
+}
+.hover:hover .num-style{
+  color: #FFFFFF;
+  background: #EA7600;
 }
