@@ -362,11 +362,12 @@ height: 323px;
   flex-direction: column;
   flex-basis: fit-content;
 }
-
+/*
 #ikea-effect {
   padding: 100px 0px 100px 0px;
 
 }
+*/
 input{
   display: block;
   width: 423px;
