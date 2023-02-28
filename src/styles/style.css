@@ -223,14 +223,14 @@ div.container.margin-top-100.bg-basic-dark {
   font-family: Neucha, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  color:#d7ccc0;
+  color: #d7ccc0;
   margin: 0;
 }
 
 .decor-9 {
   color: #fff;
   margin-bottom: 30px;
-  margin-top:0;
+  margin-top: 0;
   line-height: 72px;
   font-weight: 400;
 }
@@ -254,7 +254,7 @@ div.container.margin-top-100.bg-basic-dark {
   font-family: OpenSans-Regular, sans-serif;
   color: var(--brown);
   background: var(--white);
-  margin-top: 100px; 
+  margin-top: 100px;
   margin-bottom: 0;
 }
 
@@ -266,7 +266,7 @@ div.container.margin-top-100.bg-basic-dark {
   font-family: Neucha, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  color:#d7ccc0;
+  color: #d7ccc0;
   margin: 0;
 }
 
@@ -352,7 +352,7 @@ div.container.margin-top-100.bg-basic-dark {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: nowrap;
   align-content: center;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -482,5 +482,5 @@ button::before {
 }
 
 .img-filter {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
