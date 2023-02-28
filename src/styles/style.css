@@ -7,7 +7,7 @@
   --basic-dark: #42413c;
   --dark: #2a2626;
   --translucent-dark: #908d8b;
-  --brown: #B09A81;
+  --brown: #b09a81;
   --blue: #1085c5;
 }
 
@@ -15,19 +15,19 @@
 
 @font-face {
   font-weight: 400;
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   src: url("../assets/fonts/OpenSans-Regular.woff2");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   src: url("../assets/fonts/OpenSans-Bold.woff2");
 }
 
 @font-face {
   font-weight: 400;
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("../assets/fonts/Neucha.woff2");
 }
 
@@ -35,11 +35,12 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
-  font-family: "OpenSans-Regular", sans-serif;
+  font-family: OpenSans-Regular, sans-serif;
   margin: 0;
 }
- *,
- *::before,
+
+*,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -52,13 +53,22 @@ header {
   display: block;
 }
 
-
 h1,
 h2,
-h3 { font-family: 'Neucha';  line-height: 1.2em; }
-h1 { font-size: 72px; }
+h3 { 
+  font-family: 'Neucha';
+  line-height: 1.2em;
+}
+
+h1 { 
+  font-size: 72px;
+}
+
 h2 { font-size: 60px; }
-h3 { font-size: 34px;margin: 0px;}
+h3 { 
+  font-size: 34px;
+  margin: 0px;
+}
 
 img {
   height: auto;
@@ -93,7 +103,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .card h3 {
-  color:var(--basic);
+  color: var(--basic);
 }
 
 .column-2 p {
@@ -103,7 +113,7 @@ div.container.margin-top-100.bg-basic-dark {
 .num-style {
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: 1;
   color: var(--basic-dark);
   text-decoration: none;
@@ -144,7 +154,7 @@ div.container.margin-top-100.bg-basic-dark {
   margin-bottom: 111px;
 }
 
-.margin-bottom-40  {
+.margin-bottom-40 {
   margin-bottom: 40px;
 }
 
@@ -161,7 +171,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-1 {
-  font-family:"Neucha";
+  font-family: Neucha;
   font-size: 52px;
   color: var(--white);
   text-decoration: none;
@@ -169,7 +179,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-2 {
-  font-family:"Neucha";
+  font-family: Neucha;
   font-size: 50px;
   color: var(--white);
 }
@@ -179,7 +189,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-4 {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 24px;
   line-height: 29px;
   color: #908d8d;
@@ -200,23 +210,23 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-7 {
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   color: var(--white); 
-  background: #B09A81; 
+  background: #b09a81; 
   margin-top: 100px; 
   margin-bottom: 20px;
 }
 
 .decor-8 {
-  font-family:"Neucha";
+  font-family: Neucha;
   font-size: 24px;
   line-height: 29px;
-  color:#D7CCC0; 
+  color:#d7ccc0; 
   margin: 0px
 }
 
 .decor-9 {
-  color:#ffffff;
+  color: #ffffff;
   margin-bottom: 30px; 
   margin-top:0px;
   line-height: 72px;
@@ -224,21 +234,22 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-10 {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 34px; 
   color: #ffffff; 
   line-height: 120%;
 }
 
 .decor-11 {
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   color: var(--brown); 
   background: var(--white); 
   margin-top: 100px; 
   margin-bottom: 20px
 }
+
 .decor-11-1 {
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   color: var(--brown); 
   background: var(--white); 
   margin-top: 100px; 
@@ -246,18 +257,19 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-12 {
-  color:var(--white);
+  color: var(--white);
 }
 
 .decor-13 {
-  font-family:"Neucha";
+  font-family: Neucha;
   font-size: 24px; 
   line-height: 29px;
-  color:#D7CCC0; 
+  color:#d7ccc0; 
   margin: 0px;
 }
+
 .decor-14 {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 24px; 
   line-height: 29px;
   color: #908d8d; 
@@ -274,7 +286,7 @@ div.container.margin-top-100.bg-basic-dark {
 
 .decor-17 {
   font-size: 12px;
-  color:#ffffff;
+  color: #ffffff;
   line-height: 1.6;
   align-items: center;
 }
@@ -315,7 +327,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .container {
-  position:relative;
+  position: relative;
   width: 1110px;
   margin-right: auto;
   margin-left: auto;
@@ -343,7 +355,7 @@ div.container.margin-top-100.bg-basic-dark {
   justify-content: space-evenly;
   align-items: flex-start;
   /*margin: 15px;*/
-  color:var(--basic-dark)
+  color: var(--basic-dark)
 }
 
 .card-1 {
@@ -355,7 +367,7 @@ div.container.margin-top-100.bg-basic-dark {
   flex-wrap: wrap;
   /*margin: 15px;*/
   line-height: 1.2;
-  color:var(--white);
+  color: var(--white);
 }
 
 .img-main {
@@ -446,7 +458,7 @@ button::before {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  content:'';
+  content: '';
 }
 
 .hover:hover {
@@ -454,7 +466,7 @@ button::before {
   background: #EA7600;
 }
 
-.hover:hover h3{
+.hover:hover h3 {
   color: #FFFFFF;
   background: #EA7600;
 }
