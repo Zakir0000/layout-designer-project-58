@@ -363,9 +363,11 @@ height: 323px;
 
 .video {
   position: relative;
-  top:100px;
+
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
+
 .flex-row {
   display: flex;
   gap: 30px;
