@@ -415,7 +415,8 @@ button::before {
 .hover:hover .num-style{
   color: #FFFFFF;
   background: #EA7600;
-  
-  
-  
+}
+
+.img-filter {
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
