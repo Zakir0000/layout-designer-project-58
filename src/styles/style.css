@@ -56,7 +56,7 @@ header {
 h1,
 h2,
 h3 {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
@@ -68,9 +68,9 @@ h2 {
   font-size: 60px;
 }
 
-h3 { 
+h3 {
   font-size: 34px;
-  margin: 0px;
+  margin: 0;
 }
 
 img {
@@ -93,7 +93,7 @@ img {
 }
 
 div.container.margin-top-100.bg-basic-dark {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   padding-top: 55px;
 }
 
@@ -174,7 +174,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-1 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 52px;
   text-decoration: none;
   color: var(--basic);
@@ -200,22 +200,22 @@ div.container.margin-top-100.bg-basic-dark {
 
 .decor-5 {
   color: var(--dark);
-  line-height: 72px; 
+  line-height: 72px;
   margin-top: 0;
   font-weight: 400;
 }
 
 .decor-6 {
-  color:var(--dark);
+  color: var(--dark);
   font-style: normal;
   font-weight: 400;
 }
 
 .decor-7 {
   font-family: OpenSans-Regular, sans-serif;
-  color: var(--white); 
-  background: #b09a81; 
-  margin-top: 100px; 
+  color: var(--white);
+  background: #b09a81;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -223,37 +223,37 @@ div.container.margin-top-100.bg-basic-dark {
   font-family: Neucha, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  color:#d7ccc0; 
+  color:#d7ccc0;
   margin: 0;
 }
 
 .decor-9 {
-  color: #ffffff;
-  margin-bottom: 30px; 
-  margin-top:0px;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top:0;
   line-height: 72px;
   font-weight: 400;
 }
 
 .decor-10 {
   font-family: Neucha, sans-serif;
-  font-size: 34px; 
-  color: #ffffff; 
+  font-size: 34px;
+  color: #fff;
   line-height: 120%;
 }
 
 .decor-11 {
   font-family: OpenSans-Regular, sans-serif;
-  color: var(--brown); 
-  background: var(--white); 
-  margin-top: 100px; 
-  margin-bottom: 20px
+  color: var(--brown);
+  background: var(--white);
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .decor-11-1 {
   font-family: OpenSans-Regular, sans-serif;
-  color: var(--brown); 
-  background: var(--white); 
+  color: var(--brown);
+  background: var(--white);
   margin-top: 100px; 
   margin-bottom: 0;
 }
@@ -264,17 +264,17 @@ div.container.margin-top-100.bg-basic-dark {
 
 .decor-13 {
   font-family: Neucha, sans-serif;
-  font-size: 24px; 
+  font-size: 24px;
   line-height: 29px;
-  color:#d7ccc0; 
+  color:#d7ccc0;
   margin: 0;
 }
 
 .decor-14 {
   font-family: Neucha, sans-serif;
-  font-size: 24px; 
+  font-size: 24px;
   line-height: 29px;
-  color: #908d8d; 
+  color: #908d8d;
   margin-top: 0;
 }
 
@@ -294,8 +294,8 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .decor-18 {
-  color: #000; 
-  text-align: center; 
+  color: #000;
+  text-align: center;
   font-size: 14px;
 }
 
@@ -333,7 +333,7 @@ div.container.margin-top-100.bg-basic-dark {
   width: 1110px;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 0; 
+  padding: 100px 0;
 }
 
 .cards-container {
@@ -476,11 +476,11 @@ button::before {
   background: #ea7600;
 }
 
-.hover:hover .num-style{
+.hover:hover .num-style {
   color: #fff;
   background: #ea7600;
 }
 
 .img-filter {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
