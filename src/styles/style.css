@@ -99,10 +99,20 @@ div.container.margin-top-100.bg-basic-dark {
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
+.padding-6-4-10 {
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+}
 .padding-55 {
   padding:55px;
 }
-
+.padding-top-100 {
+  padding-top: 100px;
+}
+.margin-top-0 {
+  margin-top: 0;
+}
 .margin-top-100 {
   margin-top: 100px;
 }
@@ -112,6 +122,9 @@ div.container.margin-top-100.bg-basic-dark {
 }
 .margin-bottom-40  {
   margin-bottom: 40px;
+}
+.margin-bottom-0 {
+  margin-bottom: 0;
 }
 .center {
   text-align: center;
@@ -171,6 +184,7 @@ div.container.margin-top-100.bg-basic-dark {
   color:#ffffff;
   margin-bottom: 30px; 
   margin-top:0px;
+  line-height: 72px;
   font-weight: 400;
 }
 .decor-10 {
@@ -185,6 +199,13 @@ div.container.margin-top-100.bg-basic-dark {
   background: var(--white); 
   margin-top: 100px; 
   margin-bottom: 20px
+}
+.decor-11-1 {
+  font-family: 'OpenSans-Regular';
+  color: var(--brown); 
+  background: var(--white); 
+  margin-top: 100px; 
+  margin-bottom: 0;
 }
 .decor-12 {
   color:var(--white);
@@ -339,7 +360,7 @@ height: 323px;
 
 .video {
   position: relative;
-  top:50px;
+  top:100px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 .flex-row {
