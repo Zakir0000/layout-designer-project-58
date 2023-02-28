@@ -352,7 +352,7 @@ div.container.margin-top-100.bg-basic-dark {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: nowrap;
   align-content: center;
   justify-content: space-evenly;
   align-items: flex-start;
