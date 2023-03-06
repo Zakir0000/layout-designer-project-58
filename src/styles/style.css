@@ -131,9 +131,16 @@ div.container.margin-top-100.bg-basic-dark {
   padding-left: 10px;
 }
 
-.padding-bottom0-margin-bottom-100 {
+.padding-bottom-0-margin-bottom-100 {
   padding-bottom: 0;
   margin-bottom: 100px;
+}
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+.padding-top-50 {
+  padding-top: 50px;
 }
 
 .padding-55 {
@@ -142,6 +149,16 @@ div.container.margin-top-100.bg-basic-dark {
 
 .padding-top-100 {
   padding-top: 100px;
+}
+
+.margin-bottom-and-padding-bottom {
+  margin-bottom: -200px; 
+  padding-bottom: 100px;
+}
+
+.margin-bottom-and-padding-bottom-2 {
+  padding-bottom: 0;
+  margin-bottom: 15px
 }
 
 .margin-top-0 {
@@ -155,6 +172,10 @@ div.container.margin-top-100.bg-basic-dark {
 .margin-footer {
   margin-top: 76px;
   margin-bottom: 111px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
 }
 
 .margin-bottom-40 {
@@ -270,12 +291,20 @@ div.container.margin-top-100.bg-basic-dark {
   margin: 0;
 }
 
-.decor-14 {
+.font-family-Neucha {
   font-family: Neucha, sans-serif;
+}
+
+.font-size-24 {
   font-size: 24px;
+}
+
+.line-height-29 {
   line-height: 29px;
-  color: #908d8d;
-  margin-top: 0;
+}
+
+.color-translucent-dark {
+  color: var(--translucent-dark)
 }
 
 .decor-15 {
@@ -305,6 +334,19 @@ div.container.margin-top-100.bg-basic-dark {
 
 .decor-20 {
   color: var(--basic);
+}
+
+.decor-21 {
+  color: var(--dark);
+}
+
+.decor-22 {
+  color: var(--dark);
+  margin-top: 0;
+}
+
+.decor-23 {
+  height: 348px;
 }
 
 .page-header {
@@ -371,6 +413,15 @@ div.container.margin-top-100.bg-basic-dark {
   /* margin: 15px; */
   line-height: 1.2;
   color: var(--white);
+}
+
+.navigation-card {
+  width: 148px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0
 }
 
 .img-main {
