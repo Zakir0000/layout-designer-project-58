@@ -101,8 +101,16 @@ div.container.margin-top-100.bg-basic-dark {
   background-color: var(--brown);
 }
 
+.color-dark {
+  color: var(--dark);
+}
+
 .margin-bottom-185 {
   margin-bottom: 145px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
 }
 
 .card h3 {
@@ -122,6 +130,14 @@ div.container.margin-top-100.bg-basic-dark {
   text-decoration: none;
 }
 
+.p-0 {
+  padding: 0;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
@@ -131,17 +147,29 @@ div.container.margin-top-100.bg-basic-dark {
   padding-left: 10px;
 }
 
-.padding-bottom0-margin-bottom-100 {
+.padding-bottom-0-margin-bottom-100 {
   padding-bottom: 0;
   margin-bottom: 100px;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }
 
 .padding-55 {
   padding: 55px;
 }
 
+.padding-top-50 {
+  padding-top: 50px;
+}
+
 .padding-top-100 {
   padding-top: 100px;
+}
+
+.mb-minus-200 {
+  margin-bottom: -200px;
 }
 
 .margin-top-0 {
@@ -163,6 +191,19 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-bottom-0 {
   margin-bottom: 0;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.width-148-height-49 {
+  width: 148px;
+  height: 49px;
+}
+
+.height-348 {
+  height: 348px;
 }
 
 .center {
@@ -417,6 +458,12 @@ div.container.margin-top-100.bg-basic-dark {
   justify-content: center;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .col-2 {
   display: flex;
   flex-direction: column;
@@ -482,4 +529,8 @@ button::before {
 
 .img-filter {
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+#padding-bottom-0 {
+  padding-bottom: 0;
 }
