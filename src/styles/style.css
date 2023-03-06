@@ -535,3 +535,7 @@ button::before {
 #padding-bottom-0 {
   padding-bottom: 0;
 }
+
+.height-348 {
+  height: 348px;
+}
