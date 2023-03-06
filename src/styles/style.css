@@ -202,7 +202,7 @@ div.container.margin-top-100.bg-basic-dark {
   height: 49px;
 }
 
-.height-348 {
+#height-348 {
   height: 348px;
 }
 
@@ -382,13 +382,14 @@ div.container.margin-top-100.bg-basic-dark {
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 
 .card {
   padding: 24px;
   width: 350px;
   height: 323px;
+  line-height: 26px;
   background-color: var(--light);
   text-decoration: none;
   display: flex;
