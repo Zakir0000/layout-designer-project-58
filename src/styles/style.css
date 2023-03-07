@@ -500,3 +500,9 @@ button::before {
 .to-upper-case {
   text-transform: uppercase;
 }
+
+.col > .button-detailed {
+  display: inline-flex;
+  width: 148px;
+  height: 49px;
+}
