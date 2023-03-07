@@ -92,10 +92,6 @@ img {
   background-color: var(--basic-dark);
 }
 
-.bg-brown {
-  background: var(--brown);
-}
-
 div.container.margin-top-100.bg-basic-dark {
   padding-bottom: 0;
   padding-top: 55px;
@@ -143,10 +139,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-bottom-0 {
   margin-bottom: 0;
-}
-
-.margin-0 {
-  margin: 0;
 }
 
 .card h3 {
