@@ -434,13 +434,7 @@ div.container.margin-top-100.bg-basic-dark {
   align-items: center;
 }
 
-.col-2 {
-  display: flex;
-  flex-direction: column;
-  flex-basis: fit-content;
-}
-
-.col-1 {
+.col {
   display: flex;
   flex-direction: column;
   flex-basis: fit-content;
@@ -501,4 +495,8 @@ button::before {
 
 .padding-bottom-0 {
   padding-bottom: 0;
+}
+
+.to-upper-case {
+  text-transform: uppercase;
 }
