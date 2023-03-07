@@ -92,10 +92,6 @@ img {
   background-color: var(--basic-dark);
 }
 
-.bg-brown {
-  background: var(--brown);
-}
-
 div.container.margin-top-100.bg-basic-dark {
   padding-bottom: 0;
   padding-top: 55px;
@@ -139,10 +135,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-bottom-20 {
   margin-bottom: 20px;
-}
-
-.margin-bottom-0 {
-  margin-bottom: 0;
 }
 
 .margin-0 {
@@ -245,11 +237,11 @@ div.container.margin-top-100.bg-basic-dark {
   font-style: normal;
 }
 
-.font-family-Neucha {
+.font-family-neucha {
   font-family: Neucha, sans-serif;
 }
 
-.font-family-OpenSans {
+.font-family-opensans {
   font-family: OpenSans-Regular, sans-serif;
 }
 
