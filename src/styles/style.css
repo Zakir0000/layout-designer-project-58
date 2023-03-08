@@ -496,3 +496,7 @@ button::before {
 .to-upper-case {
   text-transform: uppercase;
 }
+
+.border-0 {
+  border: 0;
+}
