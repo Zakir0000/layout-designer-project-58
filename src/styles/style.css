@@ -84,10 +84,6 @@ img {
   background-color: var(--white);
 }
 
-.bg-basic-dark {
-  background-color: var(--basic-dark);
-}
-
 div.container.margin-top-100.bg-basic-dark {
   padding-bottom: 0;
   padding-top: 55px;
@@ -99,10 +95,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .color-dark {
   color: var(--dark);
-}
-
-.color-white {
-  color: var(--white);
 }
 
 .color-basic {
@@ -293,10 +285,6 @@ div.container.margin-top-100.bg-basic-dark {
   margin-top: 0;
 }
 
-.text-decoration-none {
-  text-decoration: none;
-}
-
 .page-header {
   position: relative;
   z-index: 0;
@@ -345,15 +333,20 @@ div.container.margin-top-100.bg-basic-dark {
   color: var(--basic-dark);
 }
 
-.card-1 {
-  flex: 1 1 350px;
-  height: 323px;
+.bg-basic-dark {
   background-color: var(--basic-dark);
+}
+
+.text-decoration-none {
   text-decoration: none;
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 1.2;
+}
+
+.color-white {
   color: var(--white);
+}
+
+.line-height-1 {
+  line-height: 1;
 }
 
 .img-main {
@@ -383,6 +376,7 @@ div.container.margin-top-100.bg-basic-dark {
 
 .display-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flex {
