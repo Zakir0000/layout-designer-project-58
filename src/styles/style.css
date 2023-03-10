@@ -409,8 +409,6 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .col {
-  display: flex;
-  flex-direction: column;
   flex-basis: fit-content;
 }
 
