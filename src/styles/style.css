@@ -381,7 +381,6 @@ div.container.margin-top-100.bg-basic-dark {
 .btn-style {
   font-weight: 700;
   background-color: var(--basic);
-  list-style-type: none;
   color: var(--white);
   text-decoration-line: none;
 }
@@ -422,12 +421,6 @@ div.container.margin-top-100.bg-basic-dark {
   display: flex;
   gap: 122px;
   justify-content: center;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .col {
