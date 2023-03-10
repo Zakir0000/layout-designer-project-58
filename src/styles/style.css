@@ -328,29 +328,25 @@ div.container.margin-top-100.bg-basic-dark {
 
 .cards-container {
   display: flex;
-  flex-flow: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 20px;
 }
 
 .card {
+  flex: 1 1 350px;
   padding: 24px;
-  width: 350px;
   height: 323px;
   line-height: 26px;
   background-color: var(--light);
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   align-items: flex-start;
   color: var(--basic-dark);
 }
 
 .card-1 {
-  width: 350px;
+  flex: 1 1 350px;
   height: 323px;
   background-color: var(--basic-dark);
   text-decoration: none;
