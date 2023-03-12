@@ -172,6 +172,10 @@ div.container.margin-top-100.bg-basic-dark {
   margin-bottom: 100px;
 }
 
+.padding-24 {
+  padding: 24px;
+}
+
 .padding-55 {
   padding: 55px;
 }
@@ -318,7 +322,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .card {
   flex: 1 1 350px;
-  padding: 24px;
   height: 323px;
   line-height: 26px;
   background-color: var(--light);
@@ -341,8 +344,8 @@ div.container.margin-top-100.bg-basic-dark {
   color: var(--white);
 }
 
-.line-height-1 {
-  line-height: 1;
+.line-height-120 {
+  line-height: 1.2;
 }
 
 .img-main {
