@@ -361,7 +361,9 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .btn {
+  display: inline-block;
   padding: 12px 24px;
+  margin-top: 40px;
 }
 
 .btn-style {
