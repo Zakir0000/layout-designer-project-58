@@ -361,6 +361,8 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .btn {
+  display: inline-flex;
+  margin-top: 40px;
   padding: 12px 24px;
 }
 
@@ -481,3 +483,4 @@ button::before {
 .display-block {
   display: block;
 }
+
