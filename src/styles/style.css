@@ -72,7 +72,6 @@ h3 {
 img {
   height: auto;
   vertical-align: middle;
-  max-width: 100%;
 }
 
 /* DESIGN STYLES */
@@ -86,7 +85,7 @@ img {
 }
 
 div.container.margin-top-100.bg-basic-dark {
-  padding-bottom: 10px;
+  padding-bottom: 0;
   padding-top: 55px;
 }
 
@@ -363,7 +362,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .btn {
   padding: 12px 24px;
-  display:inline;
 }
 
 .btn-style {
@@ -371,10 +369,6 @@ div.container.margin-top-100.bg-basic-dark {
   background-color: var(--basic);
   color: var(--white);
   text-decoration-line: none;
-}
-
-.margin-top-40 {
-  margin-top: 40px;
 }
 
 .display-flex {
@@ -406,7 +400,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .flex-row {
   display: flex;
-  width: 100%;
   gap: 30px;
 }
 
@@ -417,7 +410,7 @@ div.container.margin-top-100.bg-basic-dark {
 }
 
 .col {
-  width: 50%;
+  flex-basis: fit-content;
 }
 
 input {
@@ -487,18 +480,4 @@ button::before {
 
 .display-block {
   display: block;
-}
-
-.display-inline-block {
-  display: inline-block;
-}
-
-.flex-grow {
-  display: flex;
-  flex-grow: 0;
-}
-
-.padding-sides-55 {
-  padding-left: 55px;
-  padding-right: 55px;
 }
