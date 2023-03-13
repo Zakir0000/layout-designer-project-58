@@ -484,3 +484,6 @@ button::before {
   display: block;
 }
 
+.width-50 {
+  width: 50%;
+}
