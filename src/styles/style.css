@@ -191,10 +191,6 @@ section {
   margin-right: 40px;
 }
 
-.margin-left-40 {
-  margin-left: 40px;
-}
-
 .margin-footer {
   margin-top: 76px;
   margin-bottom: 111px;
@@ -444,4 +440,8 @@ section {
   padding-left: 12px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.margin-left-40 {
+  margin-left: 40px;
 }
