@@ -64,7 +64,8 @@ h2 {
   font-size: 60px;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 34px;
   margin: 0;
 }
@@ -93,6 +94,14 @@ div.container.margin-top-100.bg-basic-dark {
   background-color: var(--brown);
 }
 
+.bg-basic {
+  background-color: var(--basic);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
 .color-dark {
   color: var(--dark);
 }
@@ -119,6 +128,10 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-bottom-111 {
   margin-bottom: 111px;
+}
+
+.margin-bottom-76 {
+  margin-bottom: 76px;
 }
 
 .margin-bottom-30 {
@@ -218,6 +231,10 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-bottom-0 {
   margin-bottom: 0;
+}
+
+.margin-bottom-9 {
+  margin-bottom: 9px;
 }
 
 .margin-bottom-15 {
@@ -429,27 +446,16 @@ input {
   padding: 15px;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 50px;
+.button-submit {
   width: 70px;
-  background-color: #fe8a02;
+  height: 50px;
+  padding: 0;
+  vertical-align: middle;
   border: none;
 }
 
-button::before {
-  position: absolute;
-  background-image: url("./../images/send.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
-  content: "";
+.button-submit::before {
+  content: url(./../images/send.svg)
 }
 
 .hover:hover {
@@ -493,4 +499,57 @@ button::before {
 
 .width-50 {
   width: 50%;
+}
+
+.footer-container {
+  position: relative;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.footer-flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.footer-flex-item {
+  box-sizing: border-box;
+  width: calc((100% / 2) - 15px);
+}
+
+.padding-right-55 {
+  padding-right: 55px;
+}
+
+.email-label {
+  display: block;
+  font-size: 18px;
+}
+
+.footer-flex-container-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.email-input {
+  box-sizing: border-box;
+  width: calc(100% - 70px);
+  height: 50px;
+  padding: 15px;
+  border: 1px solid #e3e3e3
+}
+
+footer {
+  box-sizing: border-box;
 }
