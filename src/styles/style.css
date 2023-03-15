@@ -431,7 +431,7 @@ button {
 
 button::before {
   position: absolute;
-  background-image: url("../../images/send.svg");
+  background-image: url("./../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
