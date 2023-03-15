@@ -222,7 +222,6 @@ div.container.margin-top-100.bg-basic-dark {
 
 .margin-footer {
   margin-top: 60px;
-  
 }
 
 .margin-bottom-40 {
@@ -455,7 +454,7 @@ input {
 }
 
 .button-submit::before {
-  content: url(./../images/send.svg)
+  content: url("./../images/send.svg");
 }
 
 .hover:hover {
@@ -547,7 +546,7 @@ input {
   width: calc(100% - 70px);
   height: 50px;
   padding: 15px;
-  border: 1px solid #e3e3e3
+  border: 1px solid #e3e3e3;
 }
 
 footer {
