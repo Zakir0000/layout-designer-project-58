@@ -117,6 +117,10 @@ div.container.margin-top-100.bg-basic-dark {
   margin-bottom: 145px;
 }
 
+.margin-bottom-111 {
+  margin-bottom: 111px;
+}
+
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
@@ -165,11 +169,6 @@ div.container.margin-top-100.bg-basic-dark {
 .padding-6-10 {
   padding-top: 6px;
   padding-left: 10px;
-}
-
-.padding-bottom-0-margin-bottom-100 {
-  padding-bottom: 0;
-  margin-bottom: 100px;
 }
 
 .padding-24 {
