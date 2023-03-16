@@ -1,12 +1,12 @@
-/**CSS**/
-@import url("../variables.css");
-@import url("../basic-settings.css");
-@import url("../fonts.css");
-@import url("../atomic-styles.css");
-@import url("../grid.css");
-@import url("../button-styles.css");
-@import url("../styles-of-the-card-component.css");
-@import url("../form-styles.css");
+/** CSS **/
+@import "../variables.css";
+@import "../basic-settings.css";
+@import "../fonts.css";
+@import "../atomic-styles.css";
+@import "../grid.css";
+@import "../button-styles.css";
+@import "../styles-of-the-card-component.css";
+@import "../form-styles.css";
 
 .pb-100 {
   padding-bottom: 100px;
