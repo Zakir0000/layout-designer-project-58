@@ -1,154 +1,12 @@
-/** Colors **/
-:root {
-  --white: #fff;
-  --translucent-white: #d7ccc0;
-  --light: #f5f4f0;
-  --basic: #fe8a02;
-  --basic-dark: #42413c;
-  --dark: #2a2626;
-  --translucent-dark: #908d8b;
-  --brown: #b09a81;
-  --blue: #1085c5;
-}
-
-/** FONTS **/
-
-@font-face {
-  font-weight: 400;
-  font-family: OpenSans-Regular;
-  src: url("../assets/fonts/OpenSans-Regular.woff2");
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: OpenSans-Bold;
-  src: url("../assets/fonts/OpenSans-Bold.woff2");
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: Neucha;
-  src: url("../assets/fonts/Neucha.woff2");
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
-  line-height: 1.6em;
-  color: var(--dark);
-  font-family: OpenSans-Regular, sans-serif;
-  margin: 0;
-}
-
-header {
-  display: block;
-}
-
-h1,
-h2,
-h3 {
-  font-family: Neucha, sans-serif;
-  line-height: 1.2em;
-}
-
-h1 {
-  font-size: 72px;
-}
-
-h2 {
-  font-size: 60px;
-}
-
-h3,
-.h3 {
-  font-size: 34px;
-  margin: 0;
-}
-
-img {
-  height: auto;
-  vertical-align: middle;
-}
-
-/* DESIGN STYLES */
-
-.background-light {
-  background-color: var(--light);
-}
-
-.bg-white {
-  background-color: var(--white);
-}
-
-.bg-brown {
-  background-color: var(--brown);
-}
-
-.bg-basic {
-  background-color: var(--basic);
-}
-
-.color-blue {
-  color: var(--blue);
-}
-
-.color-dark {
-  color: var(--dark);
-}
-
-.color-basic {
-  color: var(--basic);
-}
-
-.color-brown {
-  color: var(--brown);
-}
-
-.color-black {
-  color: #000;
-}
-
-.color-translucent-white {
-  color: var(--translucent-white);
-}
-
-.margin-bottom-185 {
-  margin-bottom: 145px;
-}
-
-.margin-bottom-76 {
-  margin-bottom: 76px;
-}
-
-.margin-bottom-30 {
-  margin-bottom: 30px;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px;
-}
-
-.margin-0 {
-  margin: 0;
-}
-
-.card h3 {
-  color: var(--basic);
-}
-
-.num-style {
-  padding-bottom: 40px;
-  font-size: 64px;
-  font-family: Neucha, sans-serif;
-  line-height: 1;
-  color: var(--basic-dark);
-  text-decoration: none;
-}
+/**CSS**/
+@import url("../variables.css");
+@import url("../basic-settings.css");
+@import url("../fonts.css");
+@import url("../atomic-styles.css");
+@import url("../grid.css");
+@import url("../button-styles.css");
+@import url("../styles-of-the-card-component.css");
+@import url("../form-styles.css");
 
 .pb-100 {
   padding-bottom: 100px;
@@ -279,31 +137,6 @@ img {
   content: "";
 }
 
-.container {
-  position: relative;
-  width: 1110px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 100px 0;
-}
-
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  flex: 1 1 350px;
-  line-height: 26px;
-  background-color: var(--light);
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--basic-dark);
-}
-
 .bg-basic-dark {
   background-color: var(--basic-dark);
 }
@@ -323,19 +156,6 @@ img {
   height: 525px;
 }
 
-.btn {
-  display: inline-flex;
-  margin-top: 40px;
-  padding: 12px 24px;
-}
-
-.btn-style {
-  font-weight: 700;
-  background-color: var(--basic);
-  color: var(--white);
-  text-decoration-line: none;
-}
-
 .video-filter {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
@@ -344,53 +164,11 @@ img {
   text-align: center;
 }
 
-.flex-row {
-  display: flex;
-  gap: 30px;
-}
-
-.flex-row-footer {
-  display: flex;
-  gap: 122px;
-  justify-content: center;
-}
-
-.col {
-  flex-basis: fit-content;
-}
-
 input {
   display: block;
   width: 423px;
   height: 50px;
   padding: 15px;
-}
-
-.button-submit {
-  width: 70px;
-  height: 50px;
-  padding: 0;
-  vertical-align: middle;
-  border: none;
-}
-
-.button-submit::before {
-  content: url("./../images/send.svg");
-}
-
-.hover:hover {
-  color: #fff;
-  background: #ea7600;
-}
-
-.hover:hover h3 {
-  color: #fff;
-  background: #ea7600;
-}
-
-.hover:hover .num-style {
-  color: #fff;
-  background: #ea7600;
 }
 
 .img-filter {
@@ -448,11 +226,6 @@ input {
   padding-right: 55px;
 }
 
-.email-label {
-  display: block;
-  font-size: 18px;
-}
-
 .footer-flex-container-row {
   display: flex;
   flex-flow: row nowrap;
@@ -460,14 +233,6 @@ input {
 
 .flex-container-row {
   display: flex;
-}
-
-.email-input {
-  box-sizing: border-box;
-  width: calc(100% - 70px);
-  height: 50px;
-  padding: 15px;
-  border: 1px solid #e3e3e3;
 }
 
 footer {

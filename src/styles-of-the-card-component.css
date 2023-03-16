@@ -1,0 +1,38 @@
+.card {
+  flex: 1 1 350px;
+  line-height: 26px;
+  background-color: var(--light);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--basic-dark);
+}
+
+.hover:hover {
+  color: #fff;
+  background: #ea7600;
+}
+
+.hover:hover h3 {
+  color: #fff;
+  background: #ea7600;
+}
+
+.hover:hover .num-style {
+  color: #fff;
+  background: #ea7600;
+}
+
+.card h3 {
+  color: var(--basic);
+}
+
+.num-style {
+  padding-bottom: 40px;
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
+  color: var(--basic-dark);
+  text-decoration: none;
+}
