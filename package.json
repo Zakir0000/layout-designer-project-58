@@ -2,7 +2,7 @@
   "name": "layout-designer-project-58",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/Zakir0000/layout-designer-project-58/workflows/hexlet-check/badge.svg)](https://github.com/Zakir0000/layout-designer-project-58/actions)",
+  "description": "HTML/CSS project Cognitive distortions",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
