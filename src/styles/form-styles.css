@@ -17,8 +17,13 @@
   padding: 0;
   vertical-align: middle;
   border: none;
+  cursor: pointer;
 }
 
 .button-submit::before {
   content: url("../images/send.svg");
+}
+
+.button-submit:hover {
+  background: var(--primary-hover);
 }

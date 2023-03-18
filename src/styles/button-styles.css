@@ -4,9 +4,14 @@
   padding: 12px 24px;
 }
 
+.btn:hover {
+  background: var(--primary-hover);
+}
+
 .btn-style {
   font-weight: 700;
   background-color: var(--basic);
   color: var(--white);
   text-decoration-line: none;
 }
+
