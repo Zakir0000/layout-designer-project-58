@@ -14,18 +14,13 @@
   background: #ea7600;
 }
 
+.card h3 {
+  color: var(--basic);
+}
+
 .hover:hover h3 {
   color: #fff;
   background: #ea7600;
-}
-
-.hover:hover .num-style {
-  color: #fff;
-  background: #ea7600;
-}
-
-.card h3 {
-  color: var(--basic);
 }
 
 .num-style {
@@ -35,4 +30,9 @@
   line-height: 1;
   color: var(--basic-dark);
   text-decoration: none;
+}
+
+.hover:hover .num-style {
+  color: #fff;
+  background: #ea7600;
 }
