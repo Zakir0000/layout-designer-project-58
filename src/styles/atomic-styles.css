@@ -1,0 +1,223 @@
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-basic {
+  background-color: var(--basic);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-dark {
+  color: var(--dark);
+}
+
+.color-basic {
+  color: var(--basic);
+}
+
+.color-brown {
+  color: var(--brown);
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-translucent-white {
+  color: var(--translucent-white);
+}
+
+.margin-bottom-185 {
+  margin-bottom: 145px;
+}
+
+.margin-bottom-76 {
+  margin-bottom: 76px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.padding-24 {
+  padding: 24px;
+}
+
+.padding-55 {
+  padding: 55px;
+}
+
+.padding-top-16 {
+  padding-top: 16px;
+}
+
+.padding-top-50 {
+  padding-top: 50px;
+}
+
+.padding-top-100 {
+  padding-top: 100px;
+}
+
+.mb-minus-200 {
+  margin-bottom: -200px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-bottom-9 {
+  margin-bottom: 9px;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-family-neucha {
+  font-family: Neucha, sans-serif;
+}
+
+.font-family-opensans {
+  font-family: OpenSans-Regular, sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-34 {
+  font-size: 34px;
+}
+
+.font-size-52 {
+  font-size: 52px;
+}
+
+.line-height-160 {
+  line-height: 1.6;
+}
+
+.line-height-29 {
+  line-height: 29px;
+}
+
+.line-height-120 {
+  line-height: 120%;
+}
+
+.color-translucent-dark {
+  color: var(--translucent-dark);
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.img-filter {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.height-348 {
+  height: 348px;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+.to-upper-case {
+  text-transform: uppercase;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.display-block {
+  display: block;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.padding-right-55 {
+  padding-right: 55px;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.bg-basic-dark {
+  background-color: var(--basic-dark);
+}
