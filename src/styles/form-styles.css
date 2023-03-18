@@ -20,5 +20,5 @@
 }
 
 .button-submit::before {
-  content: url("./images/send.svg");
+  content: url("../images/send.svg");
 }
