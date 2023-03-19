@@ -28,13 +28,6 @@
   flex-basis: fit-content;
 }
 
-.footer-container {
-  position: relative;
-  width: 1110px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
 .footer-flex-container {
   display: flex;
   flex-flow: row nowrap;
