@@ -14,8 +14,7 @@
 
 .flex-row {
   display: flex;
-  gap: 30px;
-  justify-content: space-between;
+  gap: 30px;;
 }
 
 .flex-row-footer {
@@ -25,6 +24,7 @@
 }
 
 .col {
+  width: calc(50% + 25px);
   flex-basis: fit-content;
 }
 
