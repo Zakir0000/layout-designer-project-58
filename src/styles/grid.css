@@ -24,7 +24,7 @@
 }
 
 .col {
-  width: calc(50% + 25px);
+  
   flex-basis: fit-content;
 }
 
